@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: outfit ;
+    src: url('fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: youg ;
+    src: url('fonts/young-serif/YoungSerif-Regular.ttf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F3E5D8;
+    height: 0px;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main{
+    background-color: white;
+    border-radius: 30px;
+    text-align: justify;
+    margin: auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 800px;
+    padding-top: 30px;
+ 
+}
+
+
+h1{
+    text-align: left;
+    font-family: youg;
+    font-weight: lighter;
+    font-size: 2.5em;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+h3{
+    color: hsl(14, 45%, 36%);
+    font-family: outfit;
+    font-weight: lighter;
+    text-align: left;
+    font-family: youg;
+    margin-left: 20px;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: youg;
+    font-weight: lighter;
+    font-size: 1.8em;
+    text-align: left;
+    font-family: youg;
+    margin-left: 20px;
+}
+
+p{
+    font-family: outfit;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+ul{
+    font-family: outfit;
+    list-style-position: inside;
+    margin: 10px;
+}
+
+ol{
+    font-family: outfit;
+    list-style-position: inside;
+    margin: 10px;
+}
+
+li{
+    padding: 10px;
+}
+
+hr {
+    display: block;
+    margin: auto;
+    width: 100%;
+	border-width: 0px;
+	height: 1px;
+	border-top-width: 1px;
+    box-sizing:border-box;
+    
+}
+
+
+main > img{
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;    
+}
+
+#preparação{
+    background-color: hsl(330, 100%, 98%);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+#preparação > h3{
+    color: hsl(332, 51%, 32%);
+    padding: 10px;
+    margin: -20px -10px 5px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+.preparation::marker {
+    color: hsl(332, 51%, 32%);
+    padding: 10px;
+}
+
+#ingredientes{
+    padding: 0px 0px 30px 0px;
+}
+
+#instruções{
+    padding: 30px 0px 30px 0px;
+}
+
+.ingredientcolor::marker{
+    color: hsl(14, 45%, 36%) ;
+}
+
+.instructioncolor::marker{
+    color: hsl(14, 45%, 36%) ;
+    font-weight: bolder;
+}
+
+#nutriçao{
+    margin-top: 20px;
+}
+
+
+#nutritional > ul{
+    columns: 2;
+}
+.calories{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: bolder;
+}
+
+    
+    
+    
